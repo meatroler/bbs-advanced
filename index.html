@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-header__logo">
+			<img src="https:\\placehold.it\370x153" alt="Барбершоп Бородинский" width="370" height="153">
+		</div>
+		<nav class="main-nav main-nav--closed">
+			<button class="main-nav__toggle" type="button">Открыть меню</button>
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list">
+					<li class="main-nav__list-item main-nav__list-item--active"><a>Главная</a></li>
+					<li class="main-nav__list-item"><a href="#">Наши работы</a></li>
+				</ul>
+				<ul class="main-nav__user-list">
+					<li class="main-nav__user-list-item">
+						<a href="#" title="Войти" class="main-nav__user-login">Вход</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="stats">
+		<header class="stats__header">
+			<b class="stats__slogan">Стрижка у нас<br> это выгодно!</b>
+			<p class="stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+			<small class="stats__legend stats__legend--top"><sup>*</sup> - приведённые данные ложь</small>
+		</header>
+		<table class="stats__table">
+			<tr>
+				<td class="stats__value">1 500 <sup>*</sup></td>
+				<td class="stats__field">рублей<br> вложений</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<small class="stats__legend stats__legend--bottom"><sup>*</sup> - приведённые данные ложь</small>
+	</div>
+	<div class="advantages">
+		<div class="advantages__wrapper  slider">
+			<input type="radio" name="advantages" id="advantages-input-1" class="slider__input">
+			<input type="radio" name="advantages" id="advantages-input-2" class="slider__input">
+			<input type="radio" name="advantages" id="advantages-input-3" class="slider__input">
+		</div>
+		<ul class="advantages__list">
+			<li class="advantages__list-item advantages__list-item--fast  slider__item">
+				<h3 class="advantages__list-item-title">Быстро</h3>
+				<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки</p>
+			</li>
+		</ul>
+		<div class="advantages__toggles  slider__toggles">
+			<label for="advantages-input-1" class="slider__toggle"></label>
+			<label for="advantages-input-2" class="slider__toggle"></label>
+			<label for="advantages-input-3" class="slider__toggle"></label>
+		</div>
+		<div class="news">
+			<div class="news__wrapper">
+				<h2 class="news__title">Новости и акции</h2>
+				<ul class="news__list">
+					<li class="news__list-item">
+						<time class="news__date" datetime="2015-09-29"><b>29</b> сент</time>
+						<p>Нам наконец-то завезли Егермейстер! Теперь вы можете пропустить стаканчик</p>
+					</li>
+				</ul>
+				<a href="#" class="news__to-all  btn">Показать всё</a>
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="reviews__wrapper  slider">
+				<h2 class="reviews__title">Отзывы о нас</h2>
+				<a href="#" class="reviews__write  btn">Оставить свой</a>
+				<input type="radio" name="reviews" id="reiews-input-1" class="slider__input" checked>
+				<input type="radio" name="reviews" id="reiews-input-2" class="slider__input">
+				<input type="radio" name="reviews" id="reiews-input-3" class="slider__input">
+			</div>
+			<div class="reviews__items">
+				<blockquote class="reviews_item  slider__item">
+					<div class="reviews__author-photo">
+						<img src="https:\\placehold.it\50x33" alt="Фото Трэвиса Баркера" width="55" height="33">
+					</div>
+					<cite class="reviews__autor-name">Трэвис Баркер</cite>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis suscipit voluptas officia assumenda praesentium fugit numquam! Similique eaque dicta ipsam eos incidunt. Eos explicabo unde corporis earum, aut accusamus veritatis.</p>
+				</blockquote>
+				<button class="reviews__prev" type="button">Предыдущий отзыв</button>
+				<button class="next" type="button">Следующий отзыв</button>
+			</div>
+			<div class="reviews__toggles  slider__toggles">
+				<label for="reviews-input-1" class="slider__toggle"></label>
+				<label for="reviews-input-2" class="slider__toggle"></label>
+				<label for="reviews-input-3" class="slider__toggle"></label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
